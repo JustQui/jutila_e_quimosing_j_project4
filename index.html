@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not a larger canvas that is shrunk down-->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Responsive FIP Scaffold</title>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <header class="grid-con" id="main-header">
+        <div class="box col-span-1 m-col-span-2" id="main-logo">Logo</div>
+        <nav class="box col-start-3 col-start-4 m-col-start-11 m-col-end-13">Nav</nav>
+             
+    </header>
+
+    <section class="grid-con" id="hero-con">
+        <div class="box col-span-full">Hero Image</div>
+    </section>
+
+    <section class="grid-con" id="products-con">
+        <div class="box col-span-2 m-col-span-6">Product Header</div>
+        <div class="box col-span-full 1-col-span-3">Product 1</div>
+        <div class="box col-span-full 1-col-start-6 1-col-end-8">Product 2</div>
+        <div class="box col-span-full 1-col-start-10 1-col-end-13">Product 3</div>
+    </section>
+
+    <section class="grid-con" id="about-con">
+        <div class="box col-span-full">About Content</div>
+    </section>
+
+    <section class="grid-con" id="promo-con">
+        <div class="box col-span-full">Quote</div>
+
+        <div class="box col-start-2 col-end-4 m-col-start-1 m-col-end-3">Company 1</div>
+        <div class="box col-start-2 col-end-4 m-col-start-4 m-col-end-6">Company 2</div>
+        <div class="box col-start-2 col-end-4 m-col-start-8 m-col-end-10">Company 3</div>
+        <div class="box col-start-2 col-end-4 m-col-start-11 m-col-end-13">Company 4</div>
+    </section>
+
+    <footer class="grid-con">
+        <div class="box col-span-full">Footer</div>
+
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
