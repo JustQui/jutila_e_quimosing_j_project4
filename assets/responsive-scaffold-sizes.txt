@@ -1,0 +1,42 @@
+=== Mobile === 360
+
+logo: 86 x 58
+hamburger: 57 x 58
+hero img: 360 x 222
+intro content: 275 x 225
+products heading: 275 x 30
+prod box(3): 360 x 150
+view more button: 175 x 45
+about content: 360 x 590
+quote: 275 x 185
+company box(4): 175 x 160
+footer content box: 360 x 420
+
+=== Tablet === 768
+
+logo: 160 x 60
+hamburger: 70 x 60
+hero img: 768 x 220
+intro content: 575 x 210
+products heading: 
+prod box(3): 768 x 160
+view more button: 215 x 55
+about content: 768 x 590
+quote: 600 x 204
+company box(4): 120 x 120
+footer content box: 768 x 530
+
+
+=== Desktop === 1920
+
+logo: 405 x 145
+nav: 805 x 75
+socials: 320 x 125
+hero img: 1920 x 875
+products heading: 1625 x 100
+prod box: 520 x 570
+view more button: 300 x 95
+about content: 1920 x 1080
+quote: 1625 x 300
+company box: 350 x 300
+footer content box: 1920 x 610
